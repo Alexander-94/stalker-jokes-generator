@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>bj.limited</groupId>
 	<artifactId>stalker-jokes-generator</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>stalker-jokes-generator</name>
 	<description>Stalker jokes api</description>
 	<properties>
