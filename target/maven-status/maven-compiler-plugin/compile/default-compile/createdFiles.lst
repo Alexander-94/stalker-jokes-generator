@@ -1,0 +1,6 @@
+bj\limited\stalkerjokesgenerator\api\http\StalkerJokesGeneratorRestController.class
+bj\limited\stalkerjokesgenerator\dao\JokeDao.class
+bj\limited\stalkerjokesgenerator\dao\entity\Joke.class
+bj\limited\stalkerjokesgenerator\service\StalkerJokesGeneratorService.class
+bj\limited\stalkerjokesgenerator\Application.class
+bj\limited\stalkerjokesgenerator\service\StalkerJokesGeneratorServiceImpl.class
