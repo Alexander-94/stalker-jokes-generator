@@ -7,4 +7,4 @@ COPY --from=builder dependencies/ ./
 COPY --from=builder spring-boot-loader/ ./
 COPY --from=builder snapshot-dependencies/ ./
 COPY --from=builder application/ ./
-ENTRYPOINT ["java", "org.springframework.boot.loader.JarLauncher"]
+ENTRYPOINT ["java", "org.springframework.boot.loader.JarLauncher", "--spring.config.additional-location=file:/etc/secrets/application-secrets.yml"]
