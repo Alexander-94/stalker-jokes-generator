@@ -1,5 +1,6 @@
 package bj.limited.stalkerjokesgenerator.api.http;
 
+import bj.limited.stalkerjokesgenerator.api.dto.JokeResponse;
 import bj.limited.stalkerjokesgenerator.service.StalkerJokesGeneratorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,9 +15,8 @@ public class StalkerJokesGeneratorRestController {
     private final StalkerJokesGeneratorService stalkerJokesGeneratorService;
 
     @GetMapping("/random")
-    public String getJoke() {
+    public JokeResponse getRandomJoke() {
         return stalkerJokesGeneratorService.generateRandomJoke();
     }
-
 
 }

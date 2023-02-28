@@ -9,9 +9,8 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Joke {
-
     @Id
     private Integer id;
-
+    private String title;
     private String text;
 }
